@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:paddingTop="50px" 
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_content_inset_with_nav"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/CardapioButton"
+        android:contentDescription=""
+        android:foregroundGravity="top"
+        android:inputType="none"
+        android:text="CARDAPIO"
+        android:textSize="50px"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:keyboardNavigationCluster="false"
+        android:gravity="fill"
+        android:onClick="onCardapioClick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_content_inset_with_nav"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/QuemSomosButton"
+        android:contentDescription=""
+        android:foregroundGravity="top"
+        android:inputType="none"
+        android:text="QUEM SOMOS"
+        android:textSize="50px"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:keyboardNavigationCluster="false"
+        android:gravity="fill"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_content_inset_with_nav"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/SugestoesButton"
+        android:contentDescription=""
+        android:foregroundGravity="top"
+        android:inputType="none"
+        android:text="SUGESTOES"
+        android:textSize="50px"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:keyboardNavigationCluster="false"
+        android:gravity="fill"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_content_inset_with_nav"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/PedidosButton"
+        android:contentDescription=""
+        android:foregroundGravity="top"
+        android:inputType="none"
+        android:text="PEDIDOS"
+        android:textSize="50px"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:keyboardNavigationCluster="false"
+        android:gravity="fill"
+        />
+
+</LinearLayout>

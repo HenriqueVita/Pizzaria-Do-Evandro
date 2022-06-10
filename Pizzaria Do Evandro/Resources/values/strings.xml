@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pizzaria Do Evandro</string>
+    <string name="action_settings">Settings</string>
+  <string name="cardapio">CARDAPIO</string>
+</resources>
